@@ -1,4 +1,4 @@
-# 🛒 ShopSense - Full-Stack Enterprise Analytics & Intelligent E-Commerce Platform
+# 🛒 ShopSense - Retail Management Platform for Inventory Control and Sales Analytics
 
 <p align="center">
 
@@ -9,7 +9,6 @@
 <p align="center">
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-20+-339933?logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express.js-REST_API-000000?logo=express&logoColor=white)
@@ -18,9 +17,6 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?logo=mongodb&logoColor=white)
 ![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-ML-F7931E?logo=scikit-learn&logoColor=white)
 ![MLflow](https://img.shields.io/badge/MLflow-Model_Registry-0194E2?logo=mlflow&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?logo=docker&logoColor=white)
-![Testing](https://img.shields.io/badge/Testing-Pytest%20%7C%20Node.js-brightgreen)
-![Status](https://img.shields.io/badge/Project-Completed-success)
 
 </p>
 

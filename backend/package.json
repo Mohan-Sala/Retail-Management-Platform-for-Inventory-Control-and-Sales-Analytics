@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "tsx utils/seed.ts",
+    "reset": "node utils/resetDatabase.js",
+    "verify": "tsx utils/verifyDatabase.ts",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-validator": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^9.8.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.14",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2"
+  }
+}

@@ -1,3 +1,13 @@
+import sys
+from pathlib import Path
+
+# Add project root and ml_service directory to sys.path
+_current_dir = Path(__file__).resolve().parent
+_parent_dir = _current_dir.parent
+for _p in [str(_parent_dir), str(_current_dir)]:
+    if _p not in sys.path:
+        sys.path.insert(0, _p)
+
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 import uvicorn

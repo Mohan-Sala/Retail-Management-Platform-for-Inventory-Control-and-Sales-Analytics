@@ -1,0 +1,1 @@
+# ShopSense ML Service package

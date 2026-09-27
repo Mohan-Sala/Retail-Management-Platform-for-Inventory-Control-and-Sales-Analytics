@@ -6,6 +6,15 @@ from datetime import datetime
 
 router = APIRouter()
 
+@router.get("/")
+def root():
+    return {
+        "status": "online",
+        "service": "ShopSense ML Service",
+        "health": "/health",
+        "docs": "/docs"
+    }
+
 @router.get("/health")
 def health_check():
     health = {

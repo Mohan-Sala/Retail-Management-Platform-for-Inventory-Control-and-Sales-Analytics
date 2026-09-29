@@ -1,23 +1,10 @@
-<p align="center">
-  <img src="frontend/public/favicon.svg" width="90" alt="ShopSense Logo" />
-</p>
-
-<h1 align="center">🛒 ShopSense</h1>
-
-<p align="center">
+<h1>🛒 ShopSense</h1>
+<p>
   <strong>Enterprise Retail Management Platform for Intelligent Inventory Control & Sales Analytics</strong>
 </p>
-
-<p align="center">
+<p>
   A full-stack, microservices-driven e-commerce intelligence ecosystem combining React 19, Node.js/Express, and Python FastAPI to deliver real-time demand forecasting, RFM customer segmentation, automated multi-vendor order routing, and executive business intelligence.
 </p>
-
-<p align="center">
-  <a href="https://shopsense-frontend-fkry.onrender.com"><img src="https://img.shields.io/badge/Live%20Demo-Frontend%20App-6366F1?style=for-the-badge&logo=render&logoColor=white" alt="Live Demo" /></a>
-  <a href="https://shopsense-api-56fv.onrender.com/api-docs"><img src="https://img.shields.io/badge/Swagger%20Docs-Express%20API-38BDF8?style=for-the-badge&logo=swagger&logoColor=white" alt="Swagger Docs" /></a>
-  <a href="https://shopsense-ml-service-dbnx.onrender.com/docs"><img src="https://img.shields.io/badge/FastAPI%20Docs-ML%20Service-10B981?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI Docs" /></a>
-</p>
-
 <p align="center">
   <img src="https://img.shields.io/badge/React-19.2.0-61DAFB?style=flat-square&logo=react&logoColor=white" alt="React 19" />
   <img src="https://img.shields.io/badge/TypeScript-5.8.3-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />

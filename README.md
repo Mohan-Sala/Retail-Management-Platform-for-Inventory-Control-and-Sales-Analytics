@@ -126,32 +126,7 @@ Model artifacts, hyperparameters, and evaluation metrics (RMSE, MAE) are version
 
 ---
 
-## 🌐 Live Production Deployments
 
-The platform is deployed live on cloud infrastructure:
-
-| Component | Hosting Provider | Public URL | Swagger / Health |
-| :--- | :--- | :--- | :--- |
-| **Storefront & Console** | Render Web Service | [https://shopsense-frontend-fkry.onrender.com](https://shopsense-frontend-fkry.onrender.com) | HTTP 200 Live |
-| **Express API Gateway** | Render Web Service | [https://shopsense-api-56fv.onrender.com](https://shopsense-api-56fv.onrender.com) | [/api-docs](https://shopsense-api-56fv.onrender.com/api-docs) |
-| **FastAPI ML Service** | Render Web Service | [https://shopsense-ml-service-dbnx.onrender.com](https://shopsense-ml-service-dbnx.onrender.com) | [/docs](https://shopsense-ml-service-dbnx.onrender.com/docs) |
-| **Database** | MongoDB Atlas | AWS Cloud M0 Sandbox | TLS / Multi-Region |
-
-> *Note: Render free-tier services spin down after inactivity. Initial wake-up may take 30–50 seconds.*
-
----
-
-## 🔑 Demo Credentials
-
-Use these pre-seeded accounts to explore the distinct role workspaces:
-
-| Role | Email Address | Password | Permissions & Scope |
-| :--- | :--- | :--- | :--- |
-| 🛡️ **Admin** | `admin@shopsense.com` | `Admin@12345` | Global BI, User Management, RFM Cohorts, Audit Logs |
-| 🏪 **Vendor** | `vendor@shopsense.com` | `Vendor@12345` | Store Catalog CRUD, Vendor Orders, Stock Forecasting |
-| 🛍️ **Customer** | `customer@shopsense.com` | `Customer@12345` | Marketplace Shopping, Cart, Orders, Support Chat |
-
----
 
 ## 🚀 Local Quickstart Guide
 
@@ -173,15 +148,15 @@ Create configuration files for the backend and frontend:
 ```env
 PORT=5000
 NODE_ENV=development
-MONGO_URI=mongodb://127.0.0.1:27017/shopsense
+MONGO_URI=YourMongoDBURI
 JWT_SECRET=YourSuperSecretKey2026!
-FASTAPI_URL=http://127.0.0.1:8000
-FASTAPI_TIMEOUT_MS=10000
+FASTAPI_URL=YourFastAPIIURL
+FASTAPI_TIMEOUT_MS=Time
 ```
 
 **`frontend/.env`**:
 ```env
-VITE_API_URL=http://localhost:5000/api
+VITE_API_URL=YourViteAPIURL
 ```
 
 ### 3. Seed the Database
